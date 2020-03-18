@@ -3,10 +3,10 @@
 Tests: `mvn clean test ` <br />
 
 # Feature of  Framework
-Aspect of Reusability - Reflection and common function for tests 
-Model different classes to map the business dsl e.g. AdjacentMapper
-Approach with both - java8-stream and Java7 
-Springboot for autowire DTO-FunctionNameWithAttribute
+Aspect of Reusability - Reflection and common function for tests <br />
+Model different classes to map the business dsl e.g. AdjacentMapper<br />
+Approach with both - java8-stream and Java7 <br />
+Springboot for autowire DTO-FunctionNameWithAttribute<br />
 
 # Future Enhancement
 Testcases to manage different data inputs<br />
