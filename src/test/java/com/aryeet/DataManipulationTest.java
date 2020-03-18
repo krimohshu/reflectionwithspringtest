@@ -131,13 +131,7 @@ public class DataManipulationTest {
                 .map(doSquare -> {
                     try {
                         return DataTransformerReflex.class.getDeclaredMethod(functionName.getFunctionName(), Integer.class).invoke(dataTransformerReflex, doSquare);
-                    } catch (IllegalAccessException e) {
-                        e.printStackTrace();
-                        return false;
-                    } catch (InvocationTargetException e) {
-                        e.printStackTrace();
-                        return false;
-                    } catch (NoSuchMethodException e) {
+                    } catch (IllegalAccessException | InvocationTargetException  | NoSuchMethodException e) {
                         e.printStackTrace();
                         return false;
                     }
